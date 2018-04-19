@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dis-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#header {
+        padding: 0px;
+        background-color: white;
+        overflow: auto;
+}
+
+.header {
+        background-color: #27325b;
+        height: 40px;
+}
+
+.head-contact {
+        color: white;
+}
+
+.school-contact {
+        text-decoration: none;
+        font-size: 13px;
+}
+
+.school-contact li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+}
+
+.school-brand {
+        margin-left: 25px;
+}
+
+.school-logo {
+        padding-top: 13px;
+}
+
+.school-logo img {
+        width: 110px;
+        height: 80px;
+}
+
+.school-logo-text {
+        padding-top: 26px;
+}
+
+.school-logo-text h2 {
+        margin: 0;
+        font-weight: bolder;
+        font-size: 25px;
+        color: #27325b;
+}
+
+.school-brand {
+        float: left;
+        display: flex;
+}
+
+.nav {
+        float: right;
+}
+
+.nav-tabs {
+        border-bottom: none;
+        margin-top: 32px;
+}
+
+.carousel-item img {
+        width: 100%;
+        height: 513px;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        z-index: -10px;
+}
+
+.overlay-container {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5px;
+}
+
+.overlay-text {
+        margin-left:  25px;
+        margin-right: 25px;
+}
+
+.overlay-text h2 {
+        color: rgba(255,255,255,0.75);
+        font-size: 50px;
+        margin-bottom: 40px;
+}
+
+.overlay-text a {
+        min-width: 25%;
+        font-weight: bolder;
+}
+
+.overlay-semi-container {
+        height: 265px;
+        z-index: 2;
+        margin-top: 165px;
+}
+
+.btn-primary {
+        /* color: rgba(255,255,255,0.75); */
+        background-color: #007bff;
+        color: white;
+        /* border-color: rgba(255,255,255,0.75); */
+}
+
+.information-for-section {
+        /* background-color: rgb(29, 29, 29); */
+}
+
+.information-for-title h2 {
+        font-size: 18px;
+        font-weight: bold;
+}
+
+.information-for-head {
+        background-color: rgb(29, 29, 29);
+}
+
+.information-for-head-container {
+        margin: 30px 25px 35px 25px;
+        color: white;
+}
+
+.information-for-title h2 {
+        color: rgba(255,255,255,0.75);
+}
+
+.admitting h2 {
+        font-size: 18px;
+        font-weight: bold;
+}
+
+.admitting {
+        margin-top: 30px;
+}
+
+.school-images {
+        width: 100%;
+        height: 219px;
+}
+
+.school-images-section {
+        padding: 0;
+}
+
+.whats-happening-head {
+        background-color: #007bff;
+        width: 100%;
+        height: 219px;
+        color: white
+}
+
+.whats-happening {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+.motto-line {
+        width: 100%;
+        border-bottom: 3px solid #007bff;
+}
+
+#motto-section {
+        width: 60%;
+        margin: 60px auto;
+}
+
+.motto-head {
+        width: 107px;
+        margin: auto;
+}
+
+.motto-image img {
+        width: 100%;
+}
+
+#footer {
+        background-color: rgb(29, 29, 29);
+        color: white;
+}
+
+#footer h5 {
+        font-size: 17px;
+        font-weight: bold;
+}
+
+#footer p {
+        font-size: 13px;
+        padding-right: 60px;
+}
+
+.footer-copyright {
+        color: gray;
+}
+
+.icon {
+        margin-right: 35px;
+}
+
+.social-media-icons {
+        display: flex;
+}
+
+.social-media-icons img {
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 8px;
+        position: absolute;
+        bottom: 22px;
+}
+
+.twitter-icon {
+        margin-left: 35px;
+}
